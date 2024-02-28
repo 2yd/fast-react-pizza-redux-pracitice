@@ -7,7 +7,7 @@ function Error() {
 
   return (
     <div>
-      <h1>Something went wrong 😢</h1>
+      <h1>发生了一些错误，某个程序员要遭重了 😢</h1>
       <p>{error.data || error.message}</p>
 
       <LinkButton to="-1">&larr; Go back</LinkButton>
